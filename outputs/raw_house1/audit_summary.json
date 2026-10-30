@@ -1,0 +1,314 @@
+{
+  "args": {
+    "raw_files": [
+      "C:\\medhavi\\proj\\refit\\RAW_House1_Part1.csv",
+      "C:\\medhavi\\proj\\refit\\RAW_House1_Part2.csv"
+    ],
+    "out_dir": "C:\\medhavi\\proj\\outputs\\raw_house1",
+    "chunksize": 500000,
+    "max_gap_min": 5,
+    "cap_watts": 25000.0,
+    "plot_appliances": null,
+    "plot_start": null
+  },
+  "audit": {
+    "files": [
+      "C:\\medhavi\\proj\\refit\\RAW_House1_Part1.csv",
+      "C:\\medhavi\\proj\\refit\\RAW_House1_Part2.csv"
+    ],
+    "rows_total": 8518763,
+    "unix_missing": 0,
+    "unix_nonnumeric": 0,
+    "time_unparseable": 0,
+    "tz_checked": 8518763,
+    "time_mismatch_vs_london": 5048558,
+    "time_mismatch_vs_utc": 0,
+    "backward_steps": 2,
+    "same_unix_adjacent": 1018705,
+    "dup_exact_adjacent": 883751,
+    "dup_conflicting_adjacent": 134954,
+    "per_part": {
+      "1": {
+        "rows": 4377877,
+        "first_unix": 1381327577.0,
+        "last_unix": 1412126827.0,
+        "min_unix": 1381327577.0,
+        "max_unix": 1412126827.0
+      },
+      "2": {
+        "rows": 4140886,
+        "first_unix": 1403906269.0,
+        "last_unix": 1436529392.0,
+        "min_unix": 1403906269.0,
+        "max_unix": 1436529392.0
+      }
+    },
+    "channels": {
+      "Aggregate": {
+        "nan": 188973,
+        "nonnumeric": 0,
+        "negative": 0,
+        "over_cap": 3,
+        "zero": 12,
+        "min": 0.0,
+        "max": 29159.0
+      },
+      "Appliance1": {
+        "nan": 437890,
+        "nonnumeric": 0,
+        "negative": 0,
+        "over_cap": 96,
+        "zero": 6144617,
+        "min": 0.0,
+        "max": 76677.0
+      },
+      "Appliance2": {
+        "nan": 459468,
+        "nonnumeric": 0,
+        "negative": 0,
+        "over_cap": 15,
+        "zero": 5186394,
+        "min": 0.0,
+        "max": 98301.0
+      },
+      "Appliance3": {
+        "nan": 311961,
+        "nonnumeric": 0,
+        "negative": 0,
+        "over_cap": 14,
+        "zero": 4867346,
+        "min": 0.0,
+        "max": 73725.0
+      },
+      "Appliance4": {
+        "nan": 510963,
+        "nonnumeric": 0,
+        "negative": 0,
+        "over_cap": 177,
+        "zero": 7971461,
+        "min": 0.0,
+        "max": 98301.0
+      },
+      "Appliance5": {
+        "nan": 497223,
+        "nonnumeric": 0,
+        "negative": 0,
+        "over_cap": 13,
+        "zero": 7843948,
+        "min": 0.0,
+        "max": 73725.0
+      },
+      "Appliance6": {
+        "nan": 342337,
+        "nonnumeric": 0,
+        "negative": 0,
+        "over_cap": 1,
+        "zero": 8100901,
+        "min": 0.0,
+        "max": 37610.0
+      },
+      "Appliance7": {
+        "nan": 232752,
+        "nonnumeric": 0,
+        "negative": 0,
+        "over_cap": 22,
+        "zero": 7398037,
+        "min": 0.0,
+        "max": 98299.0
+      },
+      "Appliance8": {
+        "nan": 390705,
+        "nonnumeric": 0,
+        "negative": 0,
+        "over_cap": 29,
+        "zero": 6589179,
+        "min": 0.0,
+        "max": 98301.0
+      },
+      "Appliance9": {
+        "nan": 1911811,
+        "nonnumeric": 0,
+        "negative": 0,
+        "over_cap": 13,
+        "zero": 1616,
+        "min": 0.0,
+        "max": 65535.0
+      }
+    },
+    "dt_positive_intervals": 7500055,
+    "dt_mode_seconds": 7,
+    "dt_share_mode": 0.24124196422559568,
+    "dt_median_seconds": 7,
+    "dt_histogram": {
+      "1": 111397,
+      "2": 987957,
+      "3": 154090,
+      "4": 273133,
+      "5": 254276,
+      "6": 989850,
+      "7": 1809328,
+      "8": 929901,
+      "9": 440756,
+      "10": 51729,
+      "11": 312478,
+      "12": 28813,
+      "13": 621113,
+      "14": 67702,
+      "15": 420949,
+      "16": 25398,
+      "17": 5154,
+      "18": 2673,
+      "19": 2370,
+      "20": 1305,
+      "21": 520,
+      "22": 924,
+      "23": 282,
+      "24": 1094,
+      "25": 63,
+      "26": 562,
+      "27": 38,
+      "28": 261,
+      "29": 106,
+      "30": 229,
+      "31-60s": 1219,
+      "61-300s": 3933,
+      "301-3600s": 419,
+      ">3600s": 33
+    },
+    "gaps_over_5min": {
+      "count": 452,
+      "count_over_1h": 33,
+      "count_over_1day": 13,
+      "largest": [
+        [
+          1390528585.0,
+          1394122999.0,
+          3594414.0
+        ],
+        [
+          1431300970.0,
+          1432048221.0,
+          747251.0
+        ],
+        [
+          1433942341.0,
+          1434591584.0,
+          649243.0
+        ],
+        [
+          1409400055.0,
+          1409830401.0,
+          430346.0
+        ],
+        [
+          1409199784.0,
+          1409590524.0,
+          390740.0
+        ],
+        [
+          1428025397.0,
+          1428401919.0,
+          376522.0
+        ],
+        [
+          1427012159.0,
+          1427210581.0,
+          198422.0
+        ],
+        [
+          1432462181.0,
+          1432642169.0,
+          179988.0
+        ],
+        [
+          1414368300.0,
+          1414504010.0,
+          135710.0
+        ],
+        [
+          1427775756.0,
+          1427905579.0,
+          129823.0
+        ]
+      ]
+    },
+    "parts_overlap": true,
+    "needs_global_sort": true
+  },
+  "cleaning": {
+    "rows_read": 8518763,
+    "rows_unix_nan_dropped": 0,
+    "duplicate_rows_dropped": 1211048,
+    "negative_to_nan": {
+      "Aggregate": 0,
+      "Appliance1": 0,
+      "Appliance2": 0,
+      "Appliance3": 0,
+      "Appliance4": 0,
+      "Appliance5": 0,
+      "Appliance6": 0,
+      "Appliance7": 0,
+      "Appliance8": 0,
+      "Appliance9": 0
+    },
+    "over_cap_to_nan": {
+      "Aggregate": 3,
+      "Appliance1": 84,
+      "Appliance2": 13,
+      "Appliance3": 13,
+      "Appliance4": 129,
+      "Appliance5": 12,
+      "Appliance6": 1,
+      "Appliance7": 21,
+      "Appliance8": 29,
+      "Appliance9": 8
+    },
+    "minutes_in_span": 920031,
+    "minutes_with_any_reading": 804954,
+    "minutes_missing_before_fill": {
+      "Aggregate": 115137,
+      "Appliance1": 117647,
+      "Appliance2": 118519,
+      "Appliance3": 116590,
+      "Appliance4": 116009,
+      "Appliance5": 123541,
+      "Appliance6": 115970,
+      "Appliance7": 115125,
+      "Appliance8": 116780,
+      "Appliance9": 212974
+    },
+    "minutes_filled": {
+      "Aggregate": 853,
+      "Appliance1": 2126,
+      "Appliance2": 2132,
+      "Appliance3": 894,
+      "Appliance4": 942,
+      "Appliance5": 3123,
+      "Appliance6": 770,
+      "Appliance7": 850,
+      "Appliance8": 1591,
+      "Appliance9": 1304
+    },
+    "minutes_missing_after_fill": {
+      "Aggregate": 114284,
+      "Appliance1": 115521,
+      "Appliance2": 116387,
+      "Appliance3": 115696,
+      "Appliance4": 115067,
+      "Appliance5": 120418,
+      "Appliance6": 115200,
+      "Appliance7": 114275,
+      "Appliance8": 115189,
+      "Appliance9": 211670
+    }
+  },
+  "outages": {
+    "count": 376,
+    "total_minutes": 114284
+  },
+  "flatline": {
+    "min_run_minutes": 120,
+    "runs": 5,
+    "longest_run_minutes": 1246
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "houses": {
+    "1": {
+      "house": 1,
+      "channel": "Appliance5",
+      "mapping_status": "consistent",
+      "first_valid": "2013-10-09 13:06:00+00:00",
+      "last_valid": "2015-07-10 11:56:00+00:00",
+      "span_days": 639.0,
+      "minutes_in_span": 920091,
+      "valid_minutes": 803773,
+      "missing_pct": 12.64,
+      "missing_gaps_total": 1023,
+      "missing_gaps_ge_60min": 25,
+      "longest_gap_hours": 998.4,
+      "zero_pct": 97.56,
+      "off_pct": 98.12,
+      "aggregate_missing_pct": 12.64,
+      "issues_flag_mean": 0.0082,
+      "cycles_detected_total": 390,
+      "cycles_complete": 386,
+      "cycles_with_nan": 4,
+      "full_days": 554,
+      "cycles_per_week": 4.84,
+      "median_duration_min": 33.0,
+      "median_peak_w": 2325.9700000000003,
+      "median_energy_wh": 319.9313333333333,
+      "mean_energy_wh": 350.39551252158896,
+      "energy_share_peak_window": 0.0033278151659355375,
+      "cycle_start_share_peak_window": 0.0025906735751295338,
+      "top_start_hours": [
+        10,
+        11,
+        5
+      ],
+      "hot_cycle_share": 0.9689119170984456,
+      "heating_energy_share": 0.7719846529164026,
+      "median_energy_hot_wh": 321.94433333333336,
+      "median_energy_nonhot_wh": 50.693083333333334,
+      "mean_daily_wm_wh": 258.6818483754513,
+      "est_annual_kwh": 94.41887465703972,
+      "cycles_per_day_weekday": 0.7445322526623339,
+      "cycles_per_day_weekend": 0.5394420394420394
+    },
+    "2": {
+      "house": 2,
+      "channel": "Appliance2",
+      "mapping_status": "consistent",
+      "first_valid": "2013-09-17 22:08:00+00:00",
+      "last_valid": "2015-05-28 08:05:00+00:00",
+      "span_days": 617.4,
+      "minutes_in_span": 889078,
+      "valid_minutes": 670164,
+      "missing_pct": 24.62,
+      "missing_gaps_total": 818,
+      "missing_gaps_ge_60min": 80,
+      "longest_gap_hours": 1488.6,
+      "zero_pct": 94.39,
+      "off_pct": 95.32,
+      "aggregate_missing_pct": 24.62,
+      "issues_flag_mean": 0.0049,
+      "cycles_detected_total": 337,
+      "cycles_complete": 327,
+      "cycles_with_nan": 10,
+      "full_days": 460,
+      "cycles_per_week": 4.92,
+      "median_duration_min": 97.0,
+      "median_peak_w": 2090.2,
+      "median_energy_wh": 611.9064999999999,
+      "mean_energy_wh": 601.2472477064222,
+      "energy_share_peak_window": 0.13624976274667588,
+      "cycle_start_share_peak_window": 0.12538226299694188,
+      "top_start_hours": [
+        8,
+        13,
+        9
+      ],
+      "hot_cycle_share": 0.9602446483180428,
+      "heating_energy_share": 0.7963293420549247,
+      "median_energy_hot_wh": 620.1348333333333,
+      "median_energy_nonhot_wh": 68.97049999999999,
+      "mean_daily_wm_wh": 426.88279528985504,
+      "est_annual_kwh": 155.81222028079708,
+      "cycles_per_day_weekday": 0.6941894061271072,
+      "cycles_per_day_weekend": 0.6491841491841492
+    },
+    "3": {
+      "house": 3,
+      "channel": "Appliance6",
+      "mapping_status": "consistent",
+      "first_valid": "2013-09-25 19:21:00+00:00",
+      "last_valid": "2015-06-02 10:55:00+00:00",
+      "span_days": 614.6,
+      "minutes_in_span": 885095,
+      "valid_minutes": 784402,
+      "missing_pct": 11.38,
+      "missing_gaps_total": 798,
+      "missing_gaps_ge_60min": 20,
+      "longest_gap_hours": 998.4,
+      "zero_pct": 93.11,
+      "off_pct": 94.34,
+      "aggregate_missing_pct": 11.39,
+      "issues_flag_mean": 0.0556,
+      "cycles_detected_total": 658,
+      "cycles_complete": 636,
+      "cycles_with_nan": 22,
+      "full_days": 538,
+      "cycles_per_week": 8.17,
+      "median_duration_min": 66.0,
+      "median_peak_w": 1925.385,
+      "median_energy_wh": 548.8661666666667,
+      "mean_energy_wh": 566.2724868972746,
+      "energy_share_peak_window": 0.0851969418890464,
+      "cycle_start_share_peak_window": 0.0849056603773585,
+      "top_start_hours": [
+        8,
+        9,
+        10
+      ],
+      "hot_cycle_share": 0.9842767295597484,
+      "heating_energy_share": 0.8037435946529973,
+      "median_energy_hot_wh": 552.5365833333333,
+      "median_energy_nonhot_wh": 33.58575,
+      "mean_daily_wm_wh": 691.9514256505576,
+      "est_annual_kwh": 252.56227036245352,
+      "cycles_per_day_weekday": 1.3971971744990646,
+      "cycles_per_day_weekend": 0.6544468190037811
+    },
+    "5": {
+      "house": 5,
+      "channel": "Appliance3",
+      "mapping_status": "consistent",
+      "first_valid": "2013-09-26 09:56:00+00:00",
+      "last_valid": "2015-07-06 17:48:00+00:00",
+      "span_days": 648.3,
+      "minutes_in_span": 933593,
+      "valid_minutes": 846373,
+      "missing_pct": 9.34,
+      "missing_gaps_total": 1803,
+      "missing_gaps_ge_60min": 210,
+      "longest_gap_hours": 207.6,
+      "zero_pct": 52.12,
+      "off_pct": 92.25,
+      "aggregate_missing_pct": 9.34,
+      "issues_flag_mean": 0.0577,
+      "cycles_detected_total": 748,
+      "cycles_complete": 705,
+      "cycles_with_nan": 43,
+      "full_days": 578,
+      "cycles_per_week": 8.4,
+      "median_duration_min": 45.0,
+      "median_peak_w": 2068.0,
+      "median_energy_wh": 293.3385,
+      "mean_energy_wh": 536.2951101654846,
+      "energy_share_peak_window": 0.17368706740790849,
+      "cycle_start_share_peak_window": 0.17163120567375884,
+      "top_start_hours": [
+        12,
+        10,
+        11
+      ],
+      "hot_cycle_share": 0.8382978723404255,
+      "heating_energy_share": 0.6781473791398775,
+      "median_energy_hot_wh": 318.241,
+      "median_energy_nonhot_wh": 83.25758333333333,
+      "mean_daily_wm_wh": 761.5284460784314,
+      "est_annual_kwh": 277.95788281862747,
+      "cycles_per_day_weekday": 0.7126736562976645,
+      "cycles_per_day_weekend": 2.3749299719887955
+    }
+  },
+  "rule": {
+    "on_thr": 20.0,
+    "max_gap": 10,
+    "min_dur": 15,
+    "min_peak": 100.0,
+    "min_energy_wh": 20.0
+  },
+  "peak_window": [
+    18,
+    22
+  ],
+  "sensitivity": [
+    {
+      "house": 1,
+      "on_thr_w": 10.0,
+      "cycles_complete": 386,
+      "cycles_total": 390
+    },
+    {
+      "house": 1,
+      "on_thr_w": 20.0,
+      "cycles_complete": 386,
+      "cycles_total": 390
+    },
+    {
+      "house": 1,
+      "on_thr_w": 50.0,
+      "cycles_complete": 388,
+      "cycles_total": 392
+    },
+    {
+      "house": 2,
+      "on_thr_w": 10.0,
+      "cycles_complete": 322,
+      "cycles_total": 333
+    },
+    {
+      "house": 2,
+      "on_thr_w": 20.0,
+      "cycles_complete": 327,
+      "cycles_total": 337
+    },
+    {
+      "house": 2,
+      "on_thr_w": 50.0,
+      "cycles_complete": 347,
+      "cycles_total": 357
+    },
+    {
+      "house": 3,
+      "on_thr_w": 10.0,
+      "cycles_complete": 641,
+      "cycles_total": 663
+    },
+    {
+      "house": 3,
+      "on_thr_w": 20.0,
+      "cycles_complete": 636,
+      "cycles_total": 658
+    },
+    {
+      "house": 3,
+      "on_thr_w": 50.0,
+      "cycles_complete": 641,
+      "cycles_total": 661
+    },
+    {
+      "house": 5,
+      "on_thr_w": 10.0,
+      "cycles_complete": 702,
+      "cycles_total": 747
+    },
+    {
+      "house": 5,
+      "on_thr_w": 20.0,
+      "cycles_complete": 705,
+      "cycles_total": 748
+    },
+    {
+      "house": 5,
+      "on_thr_w": 50.0,
+      "cycles_complete": 722,
+      "cycles_total": 763
+    }
+  ],
+  "hot_threshold_w": 1000.0,
+  "total_cycles_complete": 2054
+}
